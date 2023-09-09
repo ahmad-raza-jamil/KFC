@@ -1,0 +1,42 @@
+.btn-style{
+    color: white;
+    font-weight: 500;
+    
+    padding: 0.5rem;
+   
+    background-color: #1c1816;
+}
+.btn-style:focus{
+    background-color: rgb(211, 47, 47);  
+}
+.btn-style:hover{
+    background-color: rgb(211, 47, 47); 
+}
+.category-container {
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex; 
+    flex-wrap: nowrap; 
+    max-width: 100%; 
+  }
+
+.category-container::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  
+  .category-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  
+  .category-container::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  
+  .category-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+      
+  
